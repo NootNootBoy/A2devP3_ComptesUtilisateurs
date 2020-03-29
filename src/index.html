@@ -8,9 +8,10 @@
   <script src="js/script.js"></script>
 </head>
 <body>
-  <form class="contactForm" action="index.php" method="post">
-    <input type="text" class="contactFormText" name="nom" placeholder="Votre Nom" />
-    <input type="text" class="contactFormText" name="prenom" placeholder="Votre prenom" />
+  <div class="container">
+  <form class="contactForm" action="cible.php" method="post">
+    <input type="text" class="contactFormText" name="pseudo" placeholder="Votre pseudo" />
+    <input type="password" class="contactFormText" name="password" placeholder="Votre mot de passe" />
     <input type="email" class="contactFormText" name="mail" placeholder="Votre Email" />
     <!-- <textarea class="contactFormText" placeholder="Votre Message"></textarea> -->
     <div class="center">
@@ -18,6 +19,7 @@
         <button type="submit"> envoyer </button>
       </a>
     </div>
+  </div>
   </form>
 
 </body>
